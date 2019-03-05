@@ -12,6 +12,11 @@
  Date: 01/19/2018 23:57:42 PM
 */
 
+DROP DATABASE IF EXISTS ppgo_api_admin;
+CREATE DATABASE ppgo_api_admin DEFAULT CHARACTER SET utf8mb4;
+
+use ppgo_api_admin;
+
 SET NAMES utf8;
 SET FOREIGN_KEY_CHECKS = 0;
 
